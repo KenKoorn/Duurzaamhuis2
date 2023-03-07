@@ -8,12 +8,19 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    font-size: 2rem;
+    gap: 2rem;
+    min-height: 100vh;
+}
+
 header{
     min-height: 10rem;
     background: red;
 }
 
 main{
+    min-height: 100vh;
     background: yellowgreen;
 }
 
