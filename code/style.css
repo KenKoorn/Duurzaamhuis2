@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html{
@@ -10,27 +11,51 @@ html{
 
 body{
     font-size: 2rem;
-    gap: 2rem;
     min-height: 100vh;
 }
 
 header{
-    min-height: 10rem;
-    background: red;
+    list-style-type: none;
+    min-height: 15rem;
+    background: white;
+    padding-left:2rem;
+}
+
+header > img{
+    padding-left: 2rem;
+}
+
+header > span{
+    padding-left: 2rem;
 }
 
 main{
     min-height: 100vh;
-    background: yellowgreen;
+    background: linear-gradient(to left, #6dd5fa, #ffffff);
+}
+
+main > article{
+    display: inline-block;
+    background: linear-gradient(to right, rgb(207, 233, 215), rgb(172, 236, 172));
+    padding: 15rem;
+    width: 40rem;
+    margin: 4rem;
+    border-radius: 3rem;
+}
+
+main > article > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
     background-color: blueviolet;
     min-height: 10rem;
+
 }
 
 img{
     margin: 1rem;
     width: 10rem;
-
 }
