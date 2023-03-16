@@ -59,19 +59,17 @@ nav > ul{
 
 
 
-
-
-
-
-
 main{
     min-height: 100vh;
     background: #8DCBE6;
 }
 
-.top-section{
+.top-section p{
     background: linear-gradient(to bottom, #F1F7B5, #8DCBE6);
     min-height: 10vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .top-section > p{
