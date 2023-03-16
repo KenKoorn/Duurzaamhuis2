@@ -21,35 +21,21 @@ header{
     list-style-type: none;
     min-height: 15rem;
     background: white;
-    padding-left:2rem;
 }
 
-header > img{
-    padding-left: 2rem;
+header > p{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-header > span{
-    padding-left: 2rem;
-}
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-
-
 nav > ul > li{
-    background: #F1F7B5;
-    width: 10rem;
-    padding:2rem;
-    
     display: flex;
     justify-content: center;
     text-align: center;
@@ -62,10 +48,11 @@ nav > ul > li > a{
 }
 
 nav > ul{
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top, #F1F7B5, white);
+    padding: 2rem;
 }
 
 
@@ -82,15 +69,25 @@ main{
     background: #8DCBE6;
 }
 
+.top-section{
+    background: linear-gradient(to bottom, #F1F7B5, #8DCBE6);
+    min-height: 10vw;
+}
+
+.top-section > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main > article{
     background:black;
 }
 
-main div article{
+div > article{
     background: #f8fafb; 
     display: inline-block;
     padding: 15rem;
-    width: 40rem;
     margin: 4rem;
     border-radius: 3rem;
 }
