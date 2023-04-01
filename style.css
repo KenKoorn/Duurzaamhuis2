@@ -115,6 +115,22 @@ nav i {
 .card--first{
   grid-row:1 / 6;  /*Verticaal*/
   grid-column: 1 / 4; /*Horizontaal*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#js--clock{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #333333;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 50%;
+  height: 50%;
+  font-size: 3em;
 }
 
 .card--second{
