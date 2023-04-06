@@ -15,3 +15,7 @@ function displayTime(){
 }
 
 setInterval(displayTime , 1000);
+
+
+let date = new Date();
+console.log(date.getTime());

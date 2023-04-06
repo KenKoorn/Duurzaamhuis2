@@ -8,17 +8,52 @@
     <title>🌐 Mr.Worldwide 🌐</title>
 </head>
 <body>
-    <form>
-        <div>
-            <label for="naam">Inloggen.</label>
-            <input id="naam" type="text">    
-        </div>
+    <div class="container">
+        <nav>
+          <div class="navbar">
+            
+            <div class="logo">
+              <img src="img/logo_update.webp" alt="Logo van Mr.Worldwide." />
+              <h1>MR.Worldwide</h1>
+              <span>Developers: Sean , Ken</span>
+            </div>
 
-        <div>
-            <label for="email">Wachtwoord</label>
-            <input id="email" type="password">
-        </div>
-        <input class="submit" type="submit" value="Log in.">
-    </form>
+            <div>
+                <p id="datum"></p>
+            </div>
+
+          </div>
+        </nav>
+    <main>
+        <article class="text">
+        <h2>
+          Ben je bezig met verduurzamen?
+        </h2>
+
+        <h1>
+          Wil je je gegevens willen zien van de hele maand?
+        </h1>
+
+        <p>
+          Gebruik onze Dashboard zodat je met een oogopslag naar je gegevens te kunnen kijken!
+          Met onze Dashboard om zelfs de lichten in jouw huis te kunnen bestuuren!
+        </p>
+      </article>
+        
+      <article class="form">
+        <form autocomplete="off" action="index.html">
+            <div>
+                <label for="naam">Uw e-mail.</label>
+                <input id="naam" type="text">
+            </div>
+
+            <div>
+                <label for="email">Uw Wachtwoord.</label>
+                <input id="email" type="password">
+            </div>
+            <input class="submit" type="submit" value="Log in." >
+        </form>
+      </article>
+    </main>
 </body>
 </html>
