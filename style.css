@@ -57,17 +57,17 @@ nav {
   margin-top: 1rem;
 }
 
-.logo span {
+.navbar .logo span {
   font-size: 15px;
   color: #8DCBE6
 }
 
-ul {
+.navbar ul {
   width: 80%;
   margin: 0 auto;
 }
 
-li {
+.navbar li {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom:2rem ;
@@ -120,7 +120,6 @@ nav i {
   justify-content: center;
   display: flex;
   background: #d5d6a7;
-  color: #fff;
   padding: 1rem;
   border-radius: 1rem;
   width: 75%;
@@ -131,6 +130,10 @@ nav i {
 .card--second{
   grid-row: 1/6;
   grid-column:5 / 8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card--third{
@@ -157,104 +160,4 @@ nav i {
   border-radius: 5rem;
   box-shadow: 0px 2rem 4rem 0px rgba(0, 0, 0, 0.2);
   background: rgb(242, 242, 194);
-}
-
-
-
-/* USER */
-
-main{
-  width: 100%;
-}
-
-.text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25%;
-  flex-direction: column;
-
-  font-size: 1.5rem;
-  padding-top: 50%;
-  gap:2rem;
-}
-
-.form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20rem;
-}
-
-form{
-  width: 80%;
-  height: 80%;
-}
-
-form > div{
-  width: 80%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-input{
-  display: block;
-  width: 100%;
-  width: 50ch;
-  padding: 1rem 2rem;
-  font-size: 1.6rem;
-}
-
-label{
-  gap: 2rem;
-  border-bottom: solid rgb(242, 242, 194) 1rem;
-  border-radius: 1rem;
-}
-
-article > form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 2rem;
-
-  font-size: 200%;
-}
-
-article > .text{
-  display: flex;
-  flex-direction:column ;
-}
-
-article > form > div{
-  padding: 2rem;
-}
-
-article > form > div > .submit{
-  background: #8DCBE6;
-}
-
-.submit{
-  background: #8DCBE6;
-  width: 15rem;
-  height: 5rem;
-  margin: 2rem;
-  border-radius: 2rem;
-}
-
-.submit:hover{
-  cursor: pointer;
-}
-
-.welcome{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 2rem;
-  font-size: 2rem;
 }
