@@ -1,68 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>🌐 Mr.Worldwide 🌐</title>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="app.js"></script>
-  </head>
-
-  <body>
+</head>
+<body>
     <div class="container">
-      <nav>
-        <div class="navbar">
-          <div class="logo">
-            <img src="img/logo_update.webp" alt="Logo van Mr.Worldwide." />
-            <h1>MR.Worldwide</h1>
-            <span>Developers: Sean , Ken</span>
-          </div>
-          <ul>
-            <li>
-              <a href="#">
-                <i class="fab fa-chart-bar"></i>
-                <span class="nav-item">Documents 📄</span></a
-              >
-            </li>
-            <li>
-              <a href="stats.html">
-                <i class="fas fa-cog"></i>
-                <span class="nav-item">Stats 📊</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav>
+          <div class="navbar">
+            
+            <div class="logo">
+              <img src="img/logo_update.webp" alt="Logo van Mr.Worldwide." />
+              <h1>MR.Worldwide</h1>
+              <span>Developers: Sean , Ken</span>
 
-      <section class="main">
+              <article class="text">
+                <h2>
+                  Ben je bezig met verduurzamen?
+                </h2>
         
-        <article class="card card--first">
-          <p id="js--clock"></p>
-        </article>
+                <h1>
+                  Wil je je gegevens willen zien per maand?
+                </h1>
+        
+                <p>
+                  Gebruik onze Dashboard! Met een oogopslag naar al je gegevens kunnen kijken!
+                  Je kan zelfs licht besturen in je huis!
+                </p>
+              </article>
+            </div>
 
-        <article class="card card--second">
+            <div>
+                <p id="datum"></p>
+            </div>
 
-        </article>
+          </div>
+        </nav>
+    <main>
 
-        <article class="card card--third">
+      <article class="welcome">
+        <h2>Welkom</h2>
+      </article>
 
-        </article>
+      <article class="form">
+        <form autocomplete="off" action="/index.html">
+            <div>
+                <label for="naam">Uw e-mail.</label>
+                <input id="naam" type="text">
+            </div>
 
-        <article class="card card--fourth">
-
-        </article>
-
-        <article class="card card--fifth">
-
-        </article>
-
-        <article class="card card--sixth">
-
-        </article>
-      
-      </section>
-    </div>
-
-  </body>
+            <div>
+                <label for="email">Uw Wachtwoord.</label>
+                <input id="email" type="password">
+            </div>
+            <input class="submit" type="submit" value="Log in." >
+        </form>
+      </article>
+    </main>
+</body>
 </html>
