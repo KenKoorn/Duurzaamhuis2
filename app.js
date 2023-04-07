@@ -16,9 +16,12 @@ function displayTime(){
 
 setInterval(displayTime , 1000);
 
+document.addEventListener("DOMContentLoaded", function(event){
+    const currentDate = new Date();
+    const paragraph = document.querySelector('#js--date');
+    paragraph.innerHTML = currentDate.toDateString();
+});
 
-let date = new Date();
-console.log(date.getTime());
 
 
 const labels = [
@@ -26,7 +29,6 @@ const labels = [
     "Week 2",
     "Week 3",
     "Week 4",
-    "Week 5"
 ];
 
 const data = {
@@ -34,17 +36,33 @@ const data = {
     datasets:[
         {
             label: "Stroom-verbruik in het maand Januari",
-            data: [11.06 ,10.96, 10.89, 10.90, 10.75, 10.87],
-            backgroundColor: ['#8DCBE6', '#fff', '#CBE4DE', '#2C3333', '#ddd' ]
+            data: [11.06 ,10.96, 10.89, 10.90,],
+            backgroundColor: ['#8DCBE6', '#fff', '#d5d6a7', '#ddd' ]
         }
     ]
 }
 
+const data2 = {
+    labels: labels,
+    datasets:[
+        {
+            label: "Gas-verbruik in het maand Januari",
+            data: [7.28, 6.85, 7.10, 8.37],
+            backgroundColor: ['#8DCBE6', '#fff', '#d5d6a7', '#ddd' ]
+        }
+    ]
+}
 
 const config = {
     type: 'line',
     data: data,
 }
 
+const config2 ={
+    type: 'bar',
+    data: data2,
+}
+
 new Chart(document.getElementById("js--chart--1"), config);
+new Chart(document.getElementById("js--chart--2"), config2)
 
