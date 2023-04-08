@@ -37,7 +37,7 @@ const data = {
         {
             label: "Stroom-verbruik in het maand Januari",
             data: [11.06 ,10.96, 10.89, 10.90,],
-            backgroundColor: ['#8DCBE6', '#fff', '#d5d6a7', '#ddd' ]
+            backgroundColor: ['#71BBDBC4', '#fff', '#FCFC6A80', '#ddd' ]
         }
     ]
 }
@@ -48,7 +48,7 @@ const data2 = {
         {
             label: "Gas-verbruik in het maand Januari",
             data: [7.28, 6.85, 7.10, 8.37],
-            backgroundColor: ['#8DCBE6', '#fff', '#d5d6a7', '#ddd' ]
+            backgroundColor: ['#71BBDBC4', '#fff', '#FCFC6A80', '#ddd' ]
         }
     ]
 }
