@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 *{
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 html{
     font-size: 62.5%;
@@ -17,6 +19,57 @@ body{
     background: rgba(213, 214, 167, 0.51);
 }
 
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: white;
+
+    min-height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+header img{
+    width: 10rem;
+}
+
+a{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 20rem;
+    height: 5rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+  
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: 0.3s;
+    background: rgba(141, 203, 230, 0.5);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(141, 203, 230, 1);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 .container{
     position: relative;
     width: 40rem;
@@ -27,6 +80,7 @@ body{
     border-radius: 1.8rem;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
+    margin-top: 20rem;
 }
 
 .search-box{
@@ -96,7 +150,7 @@ body{
 
 .weather-box .temperature span{
     position: absolute;
-    margin-left: 4px;
+    margin-left: 0.4rem;
     font-size: 1.5rem;
 }
 
