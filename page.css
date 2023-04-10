@@ -169,6 +169,40 @@ nav {
   grid-column:1 / 4 ;
 }
 
+.card--fourth img{
+  width: 10rem;
+}
+
+.card--fourth a:hover{
+  background:#ddd;
+}
+
+.card--fourth a:link{
+  width: 50%;
+  margin: 2rem;
+  padding: 1rem;
+
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.3s;
+  background: rgba(141, 203, 230, 0.5);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(141, 203, 230, 1);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+}
+
+.card--fourth > .weer-section{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .card--fifth{
   grid-row: 8 / 13 ;
   grid-column:5 / 8;

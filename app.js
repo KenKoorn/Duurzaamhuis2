@@ -1,3 +1,4 @@
+/*Klok */
 function displayTime(){
     var d = new Date();
     var hour = d.getHours();
@@ -16,6 +17,7 @@ function displayTime(){
 
 setInterval(displayTime , 1000);
 
+/*datum*/
 document.addEventListener("DOMContentLoaded", function(event){
     const currentDate = new Date();
     const paragraph = document.querySelector('#js--date');
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 
 
 
+/*Chart*/
 const labels = [
     "Week 1",
     "Week 2",
@@ -65,4 +68,3 @@ const config2 ={
 
 new Chart(document.getElementById("js--chart--1"), config);
 new Chart(document.getElementById("js--chart--2"), config2)
-
