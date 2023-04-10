@@ -181,7 +181,9 @@ main{
   }
   
   .submit{
-    background: #71BBDB;
+    background: rgba(141, 203, 230, 0.5);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(141, 203, 230, 1);
     width: 15rem;
     height: 5rem;
     margin: 2rem;
@@ -199,7 +201,10 @@ main{
     flex-direction: column;
     padding: 2rem;
     font-size: 2rem;
-    background: #d5d6a7;
+    background: rgba(213, 214, 167, 0.51);
+    border-radius: 2rem;
+    box-shadow: 0 0.4px 3rem rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(193, 195, 75, 0.89);
     border-radius: 2rem;
     margin: 2rem;
   }
