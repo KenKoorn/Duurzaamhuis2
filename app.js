@@ -67,4 +67,4 @@ const config2 ={
 }
 
 new Chart(document.getElementById("js--chart--1"), config);
-new Chart(document.getElementById("js--chart--2"), config2)
+new Chart(document.getElementById("js--chart--2"), config2);
