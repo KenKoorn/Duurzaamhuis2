@@ -91,7 +91,7 @@ nav {
   background: rgba(141, 203, 230, 0.5);
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(141, 203, 230, 1);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 2rem;
   transition: 0.3s;
   cursor: pointer;
@@ -134,7 +134,7 @@ nav {
   display: flex;
   flex-direction: column;
   background: rgba(213, 214, 167, 0.51);
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   box-shadow: 0 0.4px 3rem rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(193, 195, 75, 0.89);
   padding: 1rem;
