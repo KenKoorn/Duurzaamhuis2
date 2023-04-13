@@ -53,8 +53,8 @@ nav {
 }
 
 .logo img {
-  width: 7rem;
-  height: 8.5rem;
+  width: 6rem;
+  height: 8rem;
   border-radius: 50%;
 }
 
@@ -147,7 +147,7 @@ nav {
 }
 
 #js--date{
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .card--second{
@@ -170,7 +170,7 @@ nav {
 }
 
 .card--fourth img{
-  width: 10rem;
+  width: 7rem;
   margin: 2rem;
 }
 

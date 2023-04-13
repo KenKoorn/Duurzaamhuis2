@@ -25,7 +25,7 @@ header{
     width: 100%;
     background: white;
 
-    min-height: 5rem;
+    min-height: 3rem;
 
     display: flex;
     align-items: center;
@@ -39,10 +39,11 @@ header{
     flex-direction: column;
     gap: 1rem;
     margin: 1rem;
+    font-size: 0.8em;
 }
 
 header img{
-    width: 10rem;
+    width: 7rem;
 }
 
 a{
@@ -51,7 +52,7 @@ a{
     top: 0;
 
     width: 20rem;
-    height: 5rem;
+    height: 4rem;
     margin: 2rem;
     padding: 1rem;
     text-decoration: none;
